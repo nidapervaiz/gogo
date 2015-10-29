@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Popup</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+</head>
+
+<body>
+<body>
+
+<!--nav class="navbar navbar-default navbar-fixed-top" role="navigation"> -->
+  <div class="container">
+    <div class="navbar-header">
+      <!--<a class="navbar-brand" href="#">Brand</a> --> 
+     
+
+</div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+      </ul>   
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <!--<a class="navbar-brand" href="#">Brand</a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        
+      </ul> 
+
+
+
+        <button type="button" class="btn btn-primary"> 
+
+  <span class="glyphicon glyphicon-user" onclick="href='www.google.com';"></span>Sign in</button>
+
+<!-- <button onclick="new_user_path:window.location = ''>http://www.google.com';"> sign in</button> -->
+
+
+
+
+       <!--   <span class="glyphicon glyphicon-user"></span> sign in -->
+
+        </button>
+          <button type="button" class="btn btn-primary">
+  <!-- <a href=" /products(.:format) "> <button class="btn btn-primary" > sign in  </button> </a> --> 
+          <span class="glyphicon glyphicon-user"></span> sign up
+        </button>
+         <a>
+         <div <span class="glyphicon glyphicon-search"  id="tfheader"> 
+
+		<form id="tfnewsearch" method="get" action="http://www.google.com">
+		        <input type="text" class="tftextinput" name="q" 
+ maxlength="200"><input type="submit" value="search" class="tfbutton">
+		</form>
+
+      
+
+<!--<ul class="nav navbar-nav navbar-right">
+<a href="#" class="btn btn-info btn-lg">
+          <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+        </a>
+</u>
+	<div class="tfclear"></div>
+	</div></span>
+        </a>
+ 
+
+
+
+    </div>-->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="divide-nav">
+  <div class="container">
+
+<a class="navbar-brand" rel="home" href="#" title="Buy Sell Bi Everyting"> 
+
+<IMG STYLE="position:absolute; TOP:35px; LEFT:5px; WIDTH:120px; HEIGHT:150px" SRC="logo.png">
+
+        
+    </a>
+
+    <!--<p class="divide-text"><font face="Times New Roman" size="7" color="red"><b>Ebiz</b></font></a></p> -->
+  </div>
+</div>
+      <!--<ul class="nav navbar-nav navbar-right">-->
+
+<!--<nav class="navbar navbar-default navbar-lower" role="navigation"> -->
+ <!-- <div class="container"> -->
+    <div class="collapse navbar-collapse collapse-buttons">
+      <form class="navbar-form navbar-left" role="search">
+
+<!--class='navbar-brand' href="https://ebitssite.wordpress.com/?p=4&preview=true&preview_id=4" class="brand" title="Twitter Bootstrap editor, templates and snippets.">BLOG -->
+
+
+     <button class='btn btn-success'href="https://ebitssite.wordpress.com/?p=4&preview=true&preview_id=4" class="btn btn-info" title="Twitter Bootstrap editor, templates and snippets.">BLog</button>
+
+   <button <div class="navbar-brand navbar-left"><a href="#"> <img src=<%= link_to products_path %>bloger </a></div> </button>
+
+         <button href="< %link to  /products(.:format) %>" class="btn btn-success">Products</button>
+        <button class="btn btn-default">Help</button>
+        <button class="btn btn-default">FAQ</button>
+        <button class="btn btn-default">Developers</button>
+      </form>
+    </div>
+  </div>
+<html lang="en">
+
+
+<%= yield %>
+
+</body>
+</html>
